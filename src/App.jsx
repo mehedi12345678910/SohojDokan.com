@@ -94,6 +94,11 @@ import FAQ from "./sections/FAQ";
 import Quote from "./sections/Quote";
 import Pricingsection from './sections/pricingsection';
 import Contact from './sections/Contact';
+import Portfolio from './sections/portfolio';
+import ProcessSection from './sections/ProcessSection';
+import WhyUsSection from './sections/WhyUsSection';
+import FaqSection from './sections/FaqSection';
+import ServiceSetion from './sections/ServiceSetion';
 
 // Home Page (Ekhane Pricingsection ebong Contact thakbe na, egula alada page-e thakbe)
 function Home() {
@@ -123,6 +128,11 @@ export default function App() {
           
           {/* Alada Contact Section Page */}
           <Route path="/contact" element={<div className="pt-4"><Contact /></div>} />
+          <Route path="/portfolio" element={<div className="pt-4"><Portfolio /></div>} />
+          <Route path="/process" element={<div className="pt-4"><ProcessSection /></div>} />
+          <Route path="/whyus" element={<div className="pt-4"><WhyUsSection /></div>} />
+          <Route path="/faqsection" element={<div className="pt-4"><FaqSection /></div>} />
+          <Route path="/servicesetion" element={<div className="pt-4"><ServiceSetion /></div>} />
         </Routes>
       </main>
       <Footer />

@@ -160,12 +160,12 @@ export default function Navbar() {
 
   const links = [
     { name: "Home", type: "scroll", to: "home" },
-    { name: "Services", type: "scroll", to: "services" },
-    { name: "Portfolio", type: "scroll", to: "portfolio" },
-    { name: "Process", type: "scroll", to: "process" },
-    { name: "Why Us", type: "scroll", to: "why-us" },
+    { name: "Services", type: "route", to: "/ServiceSetion" },
+    { name: "Portfolio", type: "route", to: "/portfolio" },
+    { name: "Process", type: "route", to: "process" },
+    { name: "Why Us", type: "route", to: "/whyus" },
     { name: "Pricing", type: "route", to: "/pricingsection" }, // Eta alada page-e jabe
-    { name: "FAQ", type: "scroll", to: "faq" },
+    { name: "FAQ", type: "route", to: "/faqsection" },
     { name: "Contact", type: "route", to: "/contact" },
   ];
 
