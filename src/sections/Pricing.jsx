@@ -1,7 +1,7 @@
 import React from 'react';
 export default function Pricing() {
   return (
-    <section id="pricing" className="bg-slate-50 py-14">
+    <section id="" className="bg-slate-50 py-14">
       <div className="section-shell text-center">
         <span className="rounded-full bg-blue-100 px-3 py-1 text-[10px] font-extrabold text-brand-blue">Simple Pricing</span>
         <h2 className="mt-3 text-3xl font-black text-brand-dark sm:text-4xl">Choose What Fits Your Project</h2>
