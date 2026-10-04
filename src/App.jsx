@@ -100,7 +100,7 @@ import WhyUsSection from './sections/WhyUsSection';
 import FaqSection from './sections/FaqSection';
 import ServiceSetion from './sections/ServiceSetion';
 
-// Home Page (Ekhane Pricingsection ebong Contact thakbe na, egula alada page-e thakbe)
+// Home Page  Contact thakbe na, egula alada page-e thakbe)
 function Home() {
   return (
     <>
