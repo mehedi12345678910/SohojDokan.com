@@ -166,6 +166,7 @@ export default function Navbar() {
     { name: "Why Us", type: "scroll", to: "why-us" },
     { name: "Pricing", type: "route", to: "/pricingsection" }, // Eta alada page-e jabe
     { name: "FAQ", type: "scroll", to: "faq" },
+    { name: "Contact", type: "route", to: "/contact" },
   ];
 
   // Handle smooth scroll for home page sections
